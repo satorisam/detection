@@ -34,9 +34,6 @@
     <!--canvas截取流-->
     <canvas ref="canvas" width="500" height="376" v-if="isImg" ></canvas>
 
-<!--    <input type="file" :value="fileValue" id="upImageFile" @change="ImageToBase64">-->
-<!--    <img :src="iconBase64" alt="" width="200"/>-->
-<!--    <button>上传</button>-->
 
     <img :src="yourBase64" alt="beachball" />
     <p v-if="isImg">人脸相似度为：{{ acc }}</p>
@@ -72,7 +69,7 @@ export default {
       if (this.isImg) {
         this.photograph();
       }
-    }, 1000);
+    }, 500);
   },
 
   methods: {
@@ -112,41 +109,6 @@ export default {
       });
     },
 
-    byteToString(arr) {
-      if (typeof arr === 'string') {
-        return arr;
-      }
-      var str = '',
-        _arr = arr;
-      for (var i = 0; i < _arr.length; i++) {
-        var one = _arr[i].toString(2),
-          v = one.match(/^1+?(?=0)/);
-        if (v && one.length == 8) {
-          var bytesLength = v[0].length;
-          var store = _arr[i].toString(2).slice(7 - bytesLength);
-          for (var st = 1; st < bytesLength; st++) {
-            store += _arr[st + i].toString(2).slice(2);
-          }
-          str += String.fromCharCode(parseInt(store, 2));
-          i += bytesLength - 1;
-        } else {
-          str += String.fromCharCode(_arr[i]);
-        }
-      }
-      return str;
-    },
-    // arrayBufferToBase64(buffer) {
-    //   //第一步，将ArrayBuffer转为二进制字符串
-    //   var binary = "";
-    //   var bytes = new Uint8Array(buffer);
-    //   var len = bytes.byteLength;
-    //   for (var i = 0; i < len; i++) {
-    //     binary += String.fromCharCode(bytes[i]);
-    //   }
-    //   //将二进制字符串转为base64字符串
-    //   return window.btoa(binary);
-    // },
-    // 关闭摄像头
     closeCamera() {
       this.isImg=false
       if (!this.$refs["video"].srcObject) return;

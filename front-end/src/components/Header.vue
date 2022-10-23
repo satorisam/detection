@@ -1,14 +1,6 @@
 <template>
   <div id="Header">
-    <div class="top-left-edition">
-      <span style="color: #21b3b9; font-weight: bold">
-        <i class="el-icon-star-off" style="font-size: 23px"></i
-        >我的公众号：可达鸭的深度学习教程
-      </span>
-      <span>
-        <i class="el-icon-time" style="font-size: 23px"></i>CSDN、B站：BIT可达鸭
-      </span>
-    </div>
+
     <div id="word">
       <h1>{{ msg }}</h1>
     </div>
@@ -34,7 +26,7 @@ export default {
 }
 
 #word {
-  margin-left: 45%;
+  margin-left: 0%;
   margin-top: -35px;
   margin-bottom: 37px;
   height: 60px;
@@ -46,7 +38,7 @@ h1 {
   /*text-align: center;*/
   color: #21b3b9;
   letter-spacing: 30px;
-  font-size: 2.3em;
+  font-size: 2.2em;
 }
 
 .el-menu-demo {

@@ -1,13 +1,24 @@
 <template>
   <div id="app">
 
-    <router-view/>
+    <app-header></app-header>
+    <app-content></app-content>
+    <app-footer></app-footer>
   </div>
 </template>
 
 <script>
+    import Header from "./components/Header";
+    import Footer from "./components/Footer";
+    import myLive from "./components/WebCamera";
 export default {
-  name: 'App'
+  name: 'App',
+    components: {
+    "app-header": Header,
+    "app-footer": Footer,
+    "app-content": myLive,
+  },
+
 }
 </script>
 
