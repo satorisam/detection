@@ -10,3 +10,9 @@ def predict(dataset, model, ext):
     img_y, image_info = model.detect(x)
     cv2.imwrite('./tmp/draw/{}.{}'.format(file_name, ext), img_y)
     return image_info
+
+def my_predict(path,model):
+    x = cv2.imread(path)
+    img_y, image_info = model.detect(x)
+    cv2.imwrite('./tmp/draw/{}'.format( "test.jpg"), img_y)
+    return image_info,img_y

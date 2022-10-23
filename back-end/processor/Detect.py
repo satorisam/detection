@@ -13,13 +13,13 @@ class VideoCamera(object):
         self.img_size = 640
         self.threshold = 0.4
         self.max_frame = 160
-        self.video = cv2.VideoCapture("E:/videodata/1.mp4")  #换成自己的视频文件
+        self.video = cv2.VideoCapture("C:\\Users\\ASUS\\Desktop\\Yolov5-Flask-VUE-master\\Yolov5-Flask-VUE-master\\back-end\\uploads\\downloadVideo.mp4")  #换成自己的视频文件
         self.weights = 'weights/final.pt'   #yolov5权重文件
         self.device = '0' if torch.cuda.is_available() else 'cpu'
         self.device = select_device(self.device)
         model = attempt_load(self.weights, map_location=self.device)
         model.to(self.device).eval()
-        model.half()
+        model.float()
         # torch.save(model, 'test.pt')
         self.m = model
         self.names = model.module.names if hasattr(
@@ -73,7 +73,7 @@ class VideoCamera(object):
         img = img[:, :, ::-1].transpose(2, 0, 1)
         img = np.ascontiguousarray(img)
         img = torch.from_numpy(img).to(self.device)
-        img = img.half()  # 半精度
+        img = img.float()  # 半精度
         img /= 255.0  # 图像归一化
         if img.ndimension() == 3:
             img = img.unsqueeze(0)

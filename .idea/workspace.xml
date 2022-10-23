@@ -1,7 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67ef000d-be47-4975-a0d1-fded85a8563c" name="Default Changelist" comment="" />
+    <list default="true" id="67ef000d-be47-4975-a0d1-fded85a8563c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/front-end/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/.postcssrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/build/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/build/check-versions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/build/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/build/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/build/vue-loader.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/build/webpack.base.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/build/webpack.dev.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/build/webpack.prod.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/config/dev.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/config/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/config/prod.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/p1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/p2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/p3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/components/WebCamera.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/static/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/assets/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/components/Content.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/components/Footer.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/components/Header.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/theme/fonts/element-icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/theme/fonts/element-icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/theme/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/vue.config.js" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,15 +57,23 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2GKywaUkDdlzqUSqBkmW7R0WyiN" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/anaconda3/envs/cam_pose/python.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/front-end" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\Desktop\mydetection\detection\front-end" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -37,7 +87,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.app">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Yolov5-Flask-VUE-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -60,18 +110,18 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="serve" type="js.build_tools.npm" nameIsGenerated="true">
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/front-end/package.json" />
       <command value="run" />
       <scripts>
-        <script value="serve" />
+        <script value="dev" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="npm.serve" />
+      <item itemvalue="npm.dev" />
       <item itemvalue="Python.app" />
     </list>
     <recent_temporary>
@@ -93,11 +143,26 @@
       <workItem from="1666151813859" duration="386000" />
       <workItem from="1666152217953" duration="4943000" />
       <workItem from="1666235322868" duration="2478000" />
+      <workItem from="1666503486034" duration="13000" />
+      <workItem from="1666503507821" duration="978000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
