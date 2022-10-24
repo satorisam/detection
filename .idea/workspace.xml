@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67ef000d-be47-4975-a0d1-fded85a8563c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/front-end/src/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/theme/fonts/element-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/theme/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/theme/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/back-end/tmp/draw/test.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/tmp/draw/test.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/src/components/WebCamera.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/components/WebCamera.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +37,7 @@
   <component name="ProjectId" id="2GKywaUkDdlzqUSqBkmW7R0WyiN" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/front-end/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/front-end/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -38,6 +46,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\Desktop\mydetection\detection\front-end\src" />
+      <recent name="C:\Users\ASUS\Desktop\mydetection\detection\front-end\src\assets" />
       <recent name="C:\Users\ASUS\Desktop\mydetection\detection\front-end\src\components" />
       <recent name="C:\Users\ASUS\Desktop\mydetection\detection\back-end" />
       <recent name="C:\Users\ASUS\Desktop\mydetection\detection\front-end" />
@@ -124,7 +134,7 @@
       <workItem from="1666503486034" duration="13000" />
       <workItem from="1666503507821" duration="978000" />
       <workItem from="1666504539144" duration="6192000" />
-      <workItem from="1666516251624" duration="1908000" />
+      <workItem from="1666516251624" duration="11938000" />
     </task>
     <task id="LOCAL-00001" summary="unknown">
       <created>1666516419038</created>
@@ -133,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666516419038</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="unknown">
+      <created>1666592791310</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666592791310</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +174,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="unknown" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/detection$app.coverage" NAME="app Coverage Results" MODIFIED="1666592184913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/back-end" />
+    <SUITE FILE_PATH="coverage/detection$app.coverage" NAME="app Coverage Results" MODIFIED="1666602179134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/back-end" />
     <SUITE FILE_PATH="coverage/Yolov5_Flask_VUE_master$app.coverage" NAME="app Coverage Results" MODIFIED="1666156750522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/back-end" />
   </component>
 </project>

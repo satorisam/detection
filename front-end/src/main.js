@@ -2,19 +2,34 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
-import router from './router'
-
-Vue.config.productionTip = false
-
-// axios
+import VueRouter from 'vue-router'
 import axios from 'axios'
-axios.defaults.baseURL = 'http://127.0.0.1:5003/'
+import Element from 'element-ui'
+import echarts from "echarts";
+
+Vue.prototype.$echarts = echarts;
+import '../node_modules/element-ui/lib/theme-chalk/index.css'
+import '../src/assets/style.css'
+import './theme/index.css'
+
+Vue.use(Element)
+Vue.config.productionTip = false
+Vue.use(VueRouter)
 Vue.prototype.$http = axios
+axios.defaults.baseURL = 'http://127.0.0.1:5003/'
+const router = new VueRouter({
+    routes: [
+        {path: "/App", component: App, meta: {title: "眼疾辅助诊断系统"},},
+    ],
+    mode: "history"
+})
+
+// // 全局注册组件
+Vue.component("App", App);
 
 /* eslint-disable no-new */
 new Vue({
-  el: '#app',
-  router,
-  components: { App },
-  template: '<App/>'
+    el: '#app',
+    router,
+    render: h => h(App)
 })

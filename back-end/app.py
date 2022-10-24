@@ -80,20 +80,14 @@ def upload_file():
     file.write(imgdata)
     file.close()
     image_info,img_y = core.predict.my_predict(filename,current_app.model)
-    # img_str =  json.loads(request.data)  # 获取图像数据,对应客户端的img_str
-    # str = img_str["image"].replace("%2F", "/")
-    # str =
-    # print(request.data)
-    # img_byte = base64.b64encode(request.data)
-    # print(img_byte)
-    # image = np.fromstring(img_byte, np.uint8)
-    # image = cv2.imdecode(image, cv2.IMREAD_COLOR)
-    # print(image)
-    # pid, image_info = core.main.c_main(
-    #     image_path, current_app.model, file.filename.rsplit('.', 1)[1])
+    infos = []
+    for info in image_info:
+        infos.append({"object":info,"confidence":image_info[info][1]})
+    print(infos)
     img_str = cv2.imencode('.jpeg', img_y)[1].tostring()  # 将图片编码成流数据，放到内存缓存中，然后转化成string格式
     b64_code = base64.b64encode(img_str)  # 编码成base64
-    return jsonify({'status':1,
+    return jsonify({'status':200,
+                    'image_info': image_info ,
                     'image_dev':str(b64_code, 'utf8')})
     # return jsonify({'status': 0})
     # file = request.files['file']
