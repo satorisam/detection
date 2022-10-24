@@ -20,13 +20,12 @@ export default {
 </script>
 <style scoped>
 #Header {
-  padding: 30px 110px 0 150px;
-  width: 90%;
+  padding: 30px 100px 0 100px;
+  width: 70%;
   margin: 10px auto;
 }
 
 #word {
-  margin-left: 0%;
   margin-top: -35px;
   margin-bottom: 37px;
   height: 60px;
@@ -35,10 +34,10 @@ export default {
 }
 
 h1 {
-  /*text-align: center;*/
+  text-align: center;
   color: #21b3b9;
-  letter-spacing: 30px;
-  font-size: 2.2em;
+  letter-spacing: 15px;
+  font-size: 2em;
 }
 
 .el-menu-demo {
