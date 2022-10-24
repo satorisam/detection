@@ -30,27 +30,22 @@
       autoplay
       class="mt20"
       style="background: #d9d9d9"
+      v-show= "showtime"
     ></video>
     <!--canvas截取流-->
+
     <canvas ref="canvas" width="500" height="376" v-if="isImg" ></canvas>
-
-
     <img :src="yourBase64" alt="beachball" />
     <p v-if="isImg">人脸相似度为：{{ acc }}</p>
   </div>
 </template>
-
-
 
 <script>
 export default {
   name: "myLive",
   data() {
     return {
-
-      fileValue: "",
-      iconBase64: "",
-
+      showtime: false,
       yourBase64: "",
       isCameraFlag: true,
       base64: "",
@@ -89,7 +84,7 @@ export default {
           this.$refs["video"].srcObject = success;
           this.isCameraFlag = false;
           // 实时拍照效果
-          this.$refs["video"].play();
+          // this.$refs["video"].play();
         })
         .catch((error) => {
           console.error("摄像头开启失败，请检查摄像头是否可用！");
