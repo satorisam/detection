@@ -1,0 +1,14 @@
+spring:
+  thymeleaf:
+    cache: false #关闭缓存
+    prefix: classpath:/views/ #调整页面路径
+  datasource:
+    url: jdbc:h2:mem:dbtest
+    schema : classpath:schema.sql  
+  jpa:
+    hibernate:
+      ddl-auto : update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
