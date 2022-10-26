@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="67ef000d-be47-4975-a0d1-fded85a8563c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/tmp/draw/test.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/tmp/draw/test.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/components/Header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/components/WebCamera.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/components/WebCamera.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +125,7 @@
       <workItem from="1666503486034" duration="13000" />
       <workItem from="1666503507821" duration="978000" />
       <workItem from="1666504539144" duration="6192000" />
-      <workItem from="1666516251624" duration="17852000" />
+      <workItem from="1666516251624" duration="19860000" />
     </task>
     <task id="LOCAL-00001" summary="unknown">
       <created>1666516419038</created>
@@ -150,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666612550743</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="version 1">
+      <created>1666618611185</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666618611185</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +177,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="unknown" />
     <MESSAGE value="base demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="base demo" />
+    <MESSAGE value="version 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/detection$app.coverage" NAME="app Coverage Results" MODIFIED="1666602179134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/back-end" />
